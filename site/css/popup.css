@@ -1,0 +1,74 @@
+#form {
+    display: none; 
+   background-color: rgba(0,0,0,0.3);
+   position: fixed;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   transition: display  0.3s;
+}
+form {background-color: white;
+   border-radius: 7px;
+   position: absolute;
+   overflow: hidden;
+   top : 50%;
+   left :50% ;
+   box-shadow:  rgba(48, 51, 107,0.1);
+   transform: translate(-50%,-50%);
+   width: 400px;
+   max-width: 100%
+       
+}
+.form_sign {
+background-color: lightskyblue;
+   margin : 0px;
+}
+ h3 {
+     padding: 10px;
+         color : white ;
+}
+
+
+p {
+   font-size: 3px;
+   text-align: center;
+}
+
+.bot{
+   font-size: 25px;
+   
+  
+}
+form label {
+display: block;
+   margin-bottom: 5Px;
+   margin-left: 0px;
+   font-weight: 10px;
+}
+form div {
+   margin : 10px;
+}
+form input[type="text"],input[type="password"],input[type="email"] {
+   height: 30px;
+   width: 70%;
+}
+input{
+}
+.remake {
+   margin : 0;
+}
+.btn-close {
+
+position: absolute;
+right : 0px;
+top : 0px;
+cursor :pointer;
+}
+.x{
+   background-color: white;
+} 
+.nigga {
+   width : 100%;
+   height: 35px;
+}
